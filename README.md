@@ -29,7 +29,9 @@
 <br>
 
  ## ⚙️ 개발 환경
-- Android Studio 
+- Android Studio
+- JAVA
+  
 <br>
 
 ## 🌸 주요 기능
