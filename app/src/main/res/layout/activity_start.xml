@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1EAF0"
+    android:fontFamily="@font/ongeul"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageTitle"
+        android:layout_width="395dp"
+        android:layout_height="408dp"
+        android:src="@drawable/title" />
+
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageTitle"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/ongeul"
+        android:text="당신의 스트레스를 치유해드립니다"
+        android:textColor="#4682B4"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="395dp"
+        android:layout_height="139dp"
+        android:layout_below="@id/textDescription"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_border"
+        android:focusable="true"
+        android:fontFamily="@font/ongeul"
+        android:gravity="center"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:text="시작"
+        android:textColorLink="#F0F8FF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

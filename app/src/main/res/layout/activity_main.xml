@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1EAF0"
+    android:fontFamily="@font/ongeul"
+    android:padding="16dp"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginBottom="16dp"
+        android:text="건강한 마음을 위한 여정"
+        android:textColor="#4682B4"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:fontFamily="@font/ongeul"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/btnStressTest"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/button_border">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/test" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="스트레스 테스트"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:fontFamily="@font/ongeul"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnStressManagement"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/button_border">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/letter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="스트레스 관리"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:fontFamily="@font/ongeul"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnStressRelief"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/button_border">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/play" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="스트레스 해소"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:fontFamily="@font/ongeul"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnDiary"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/button_border">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="감정 쓰기"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:fontFamily="@font/ongeul"
+            android:gravity="center" />
+    </LinearLayout>
+
+</GridLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1EAF0"
+    android:fontFamily="@font/ongeul"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/ongeul"/>
+
+    <TextView
+        android:id="@+id/textViewSource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewResult"
+        android:layout_marginTop="280dp"
+        android:text="출처: - Spitzer RL, Kroenke K, Williams JB, et al.(2006). A brief measure for assessing generalized anxiety disorder: the GAD-7, Arch Intern Med 166, 1092-7
+"
+        android:fontFamily="@font/ongeul"
+        android:textSize="14sp" />
+
+</RelativeLayout>

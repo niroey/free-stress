@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1EAF0"
+    android:fontFamily="@font/ongeul"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnBreathingExerciseTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="호흡 운동 시작 (40초)"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/ongeul"/>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1EAF0"
+    android:fontFamily="@font/ongeul">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ongeul"
+            android:gravity="center"
+            android:text="스트레스 관리 정보"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="스트레스 관리에 도움이 되는 팁을 제공해드릴게요."
+            android:layout_marginTop="30sp"
+            android:textSize="20sp"
+            android:layout_marginBottom="30sp"
+            android:fontFamily="@font/ongeul"/>
+
+        <ImageView
+            android:id="@+id/imageViewFlower"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/flower" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. 충분한 수면을 취하세요.\n2. 걷기나 요가와 같은 운동을 꾸준히 실천하세요.\n3. 영양 균형 잡힌 식사를 하세요.\n4. 카페인과 알코올을 적게 섭취하세요.\n5. 마음의 안정을 위한 명상이나 호흡 운동을 실천하세요.\n6. 주변에 도움을 요청하세요."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/ongeul"/>
+
+    </LinearLayout>
+
+</ScrollView>

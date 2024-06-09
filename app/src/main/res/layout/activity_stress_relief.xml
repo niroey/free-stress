@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#D1EAF0"
+    android:fontFamily="@font/ongeul"
+    tools:context=".StressReliefActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="91dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/forest" />
+
+    <Button
+        android:id="@+id/btnMeditation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="명상 시작 (1분)"
+        android:height="80dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/ongeul"
+        android:textColor="#A52A2A"/>
+
+    <Button
+        android:id="@+id/btnBreathingExercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="호흡 운동 시작 (40초)"
+        android:layout_below="@id/btnMeditation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:height="80dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/ongeul"
+        android:textColor="#A52A2A"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="잠시 휴식 시간을 가져봅시다"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/ongeul"/>
+
+</RelativeLayout>
